@@ -1,0 +1,43 @@
+html {
+background-color: white;
+}
+header {
+  width: auto;
+  height: 150px;
+}
+.header-title {
+  text-align: center;
+  color: mediumturquoise;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.header-list {
+  background-color: aqua;
+}
+
+.menu {
+  padding: 0px 75px;
+}
+
+.main-text {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main img{
+  width: 600px;
+  height: 250px;
+  padding: 0px 200px;
+}
+.maeoki p{
+  text-align: center;
+  font-size: 15px;
+}
+span{
+  font-size: 17px;
+  color: red;
+}
