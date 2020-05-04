@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- langは日本語にする　サイトのメインの言語にあわせる -->
+<html lang="ja">
 
 <head>
   <meta charset="UTF-8">
@@ -10,13 +11,16 @@
 
 <body>
   <header>
-    <h1 class="header-title">En La Casa</h1>
-    <h4 class="sub-title">【初心者向け】自宅で楽しく筋トレしましょう！</h4>
+    <!-- サイトタイトルはh1以外を使う -->
+    <div class="header-title">En La Casa</div>
+    <!-- h1~h6 は順番に使うべき、大きさ見た目を変えたい場合はclassを使って変える -->
+    <!-- 一番伝えたい見出しをh1にする -->
+    <h1 class="sub-title">【初心者向け】自宅で楽しく筋トレしましょう！</h1>
     <menu class="header-list">
-      <a class=menu href="https://www.myprotein.jp/nutrition.list">サプリメント</a>
-      <a class="menu" href="https://www.myprotein.jp/nutrition/protein.list">プロテイン</a>
-      <a class="menu" href="https://www.youtube.com/channel/UCwbuojHcPqeCO9OnGOBEHyw?view_as=subscriber">youtube</a>
-      <a class="menu" href="https://www.instagram.com/mujica8208">Instagram</a>
+      <li><a href="https://www.myprotein.jp/nutrition.list">サプリメント</a></li>
+      <li><a href="https://www.myprotein.jp/nutrition/protein.list">プロテイン</a></li>
+      <li><a href="https://www.youtube.com/channel/UCwbuojHcPqeCO9OnGOBEHyw?view_as=subscriber">youtube</a></li>
+      <li><a href="https://www.instagram.com/mujica8208">Instagram</a></li>
     </menu>
   </header>
 
@@ -30,28 +34,26 @@
       <p>下記より一緒に見ていきましょう！</p>
     </div>
     <div class="main-contents">
-      <h3>種目別</h3>
+      <div>種目別</div>
       <div class="contents-item">
         <img src="https://www.pakutaso.com/shared/img/thumb/WEB86_bonpower20150207120628_TP_V.jpg" alt="胸筋">
-        <p>胸筋</p>
+        <h2>胸筋</h2>
       </div>
 
       <div class="contents-item">
         <img src="https://www.pakutaso.com/shared/img/thumb/OOPAKU6485_TP_V.jpg" alt="背中">
-        <p>背中</p>
+        <h2>背中</h2>
       </div>
 
       <div class="contents-item">
         <img src="https://www.pakutaso.com/shared/img/thumb/BO151030305553_TP_V4.jpg" alt="下半身">
-        <p>下半身</p>
+        <h2>下半身</h2>
       </div>
 
       <div class="contents-item">
         <img src="https://www.pakutaso.com/shared/img/thumb/BO151030535008_TP_V.jpg" alt="腹筋">
-        <p>お腹周り</p>
+        <h2>お腹周り</h2>
       </div>
-
-
     </div>
 
   </main>
