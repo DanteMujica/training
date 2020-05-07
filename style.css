@@ -8,7 +8,7 @@ header {
   text-align: center;
   color: mediumturquoise;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .sub-title {
@@ -30,9 +30,8 @@ header {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 main img{
-  width: 600px;
-  height: 250px;
-  padding: 0px 200px;
+  width: 100%;
+  height: 350px;
 }
 .maeoki p{
   text-align: center;
@@ -41,4 +40,22 @@ main img{
 span{
   font-size: 17px;
   color: red;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mokuji {
+  background-color: paleturquoise;
+  box-sizing: border-box;
+}
+.t-contents img {
+  width: 25%;
+  height: 200px;
+
+}
+.footer-title {
+  font-size: 50px;
+  color:mediumturquoise;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 100px;
 }
