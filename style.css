@@ -61,7 +61,7 @@ span {
   width: 23%;
   height: 200px;
 }
-.text {
+.dai {
   font-size: 20px;
   padding: 10px 113px;
   color: darkorange;
@@ -92,4 +92,24 @@ span {
 }
 .footer-list2 {
   background-color: aqua;
+}
+.training img {
+  width: 30%;
+  height: 250px;
+}
+.training {
+  margin-top: 50px;
+  height: 300px;
+}
+.text {
+  width: 65%;
+  float: right;
+}
+.rigth {
+  float: right;
+}
+.text-l {
+  float: left;
+  width: 65%;
+  height: 250px;
 }
