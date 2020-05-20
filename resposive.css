@@ -1,0 +1,67 @@
+@media(max-width: 670px){
+  .shoukaibun img {
+    width: 360px;
+    padding: 5px 10px;
+  }
+  .shoukaibun {
+    width: 100%;
+  }
+  .maeoki {
+    padding-top: 0px;
+    text-align: left;
+    font-size: 15px;
+  }
+  .header-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+  .header-list li {
+    flex: auto;
+    width: 50%;
+    padding: 10px 30px;
+  }
+  .t-contents {
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+  }
+  .t-item {
+    flex: auto;
+    width: 100%;
+    height: 250px;
+  }
+  .dai {
+    padding: 10px 140px;
+  }
+  .honbun {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .top-idou {
+    padding: 5px 138px;
+  }
+  .training img {
+    width: 100%;
+    height: 250px;
+  }
+  .text {
+    width: 100%;
+    height: 330px;
+  }
+  .text-r {
+    width: 100%;
+    height: 330px;
+  }
+  .footer-title {
+    font-size: 80px;
+    margin-top: 5px;
+  }
+  footer {
+    height: 300px;
+  }
+  .footer-list2 li {
+    padding: 5px 100px;
+    font-size: 15px;
+  }
+}
