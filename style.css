@@ -116,3 +116,9 @@ span {
   width: 65%;
   height: 250px;
 }
+.ham {
+  display: none;
+}
+.menu_wrapper {
+  display: none;
+}
