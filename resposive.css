@@ -60,8 +60,35 @@
   footer {
     height: 300px;
   }
-  .footer-list2 li {
-    padding: 5px 100px;
-    font-size: 15px;
+  .footer-list {
+    display: none;
   }
+  .menu_wrapper {
+    display: block;
+  }
+  .ham{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.911);
+}
+/* ハンバーガボタンのライン */
+.ham_line {
+    transition: all 0.3s;
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 2px;
+    background-color: darkorchid;
+}
+.ham_line1 {
+    top: 10px;
+}
+.ham_line2 {
+    top: 18px;
+}
+.ham_line3 {
+    top: 26px;
+}
 }
