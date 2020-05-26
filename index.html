@@ -8,14 +8,13 @@
   <title>EnLaCasa</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="resposive.css">
-  <meta name="viewport"
-  content="width=device-width,initial-scale=1.0">
+  <script type="text/javascript" src="ham.js" defer></script>
 </head>
 
 <body>
   <header>
     <!-- サイトタイトルはh1以外を使う -->
-    <div class="header-title"　class="top">En La Casa</div>
+    <div class="header-title"　id="top">En La Casa</div>
     <!-- h1~h6 は順番に使うべき、大きさ見た目を変えたい場合はclassを使って変える -->
     <!-- 一番伝えたい見出しをh1にする -->
     <h1 class="sub-title">【初心者向け】自宅で楽しく筋トレしましょう！</h1>
@@ -132,22 +131,24 @@
       <li><a href="https://www.youtube.com/channel/UCwbuojHcPqeCO9OnGOBEHyw?view_as=subscriber">youtube</a></li>
       <li><a href="https://www.instagram.com/mujica8208">Instagram</a></li>
     </menu>
+      <!-- ハンバーガーボタン -->
     <div class="ham" id="ham">
+    <!-- ハンバーガーボタンのライン -->
       <span class="ham_line ham_line1"></span>
       <span class="ham_line ham_line2"></span>
       <span class="ham_line ham_line3"></span>
     </div>
+    <!-- メニューの中身 -->
     <div class="menu_wrapper" id="menu_wrapper">
       <div class="menu">
         <ul>
-          <li><a href="https://www.myprotein.jp/nutrition.list" style="color: #FFF;">Supplement</a></li>
-          <li><a href="https://www.myprotein.jp/nutrition/protein.list" style="color: #fff;">protein</a></li>
-          <li><a href="https://www.youtube.com/channel/UCwbuojHcPqeCO9OnGOBEHyw?view_as=subscriber" style="color: #FFF;">youtube</a></li>
-          <li><a href="https://www.instagram.com/mujica8208" style="color: #FFF;">Instagram</a></li>
+          <li><a href="https://www.myprotein.jp/nutrition.list" style="color: #fff;">Supplement</a></li>
+          <li><a href="https://www.myprotein.jp/nutrition/protein.list" style="color: #fff;">Protein</a></li>
+          <li><a href="https://www.youtube.com/channel/UCwbuojHcPqeCO9OnGOBEHyw?view_as=subscriber" style="color: #fff;">Youtube</a></li>
+          <li><a href="https://www.instagram.com/mujica8208" style="color: #fff;">Instagram</a></li>
         </ul>
       </div>
     </div>
   </footer>
 </body>
-
 </html>
