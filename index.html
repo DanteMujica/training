@@ -6,16 +6,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EnLaCasa</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="resposive.css">
-  <meta name="viewport"
-  content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/resposive.css">
+  <script type="text/javascript" src="/ham.js" defer></script>
 </head>
 
 <body>
   <header>
     <!-- サイトタイトルはh1以外を使う -->
-    <div class="header-title"　class="top">En La Casa</div>
+    <div class="header-title"　id="top">En La Casa</div>
     <!-- h1~h6 は順番に使うべき、大きさ見た目を変えたい場合はclassを使って変える -->
     <!-- 一番伝えたい見出しをh1にする -->
     <h1 class="sub-title">【初心者向け】自宅で楽しく筋トレしましょう！</h1>
@@ -25,11 +24,28 @@
       <li><a href="https://www.youtube.com/channel/UCwbuojHcPqeCO9OnGOBEHyw?view_as=subscriber">youtube</a></li>
       <li><a href="https://www.instagram.com/mujica8208">Instagram</a></li>
     </menu>
+    <div class="ham" id="ham">
+      <!-- ハンバーガーボタンのライン -->
+          <span class="ham_line ham_line1"></span>
+          <span class="ham_line ham_line2"></span>
+          <span class="ham_line ham_line3"></span>
+      </div>
+      <!-- メニューの中身 -->
+      <div class="menu_wrapper" id="menu_wrapper">
+          <div class="menu">
+              <ul>
+                  <li><a href="https://www.myprotein.jp/nutrition.list" style="color: #fff;">Supplement</a></li>
+                  <li><a href="https://www.myprotein.jp/nutrition/protein.list" style="color: #fff;">Protein</a></li>
+                  <li><a href="https://www.youtube.com/channel/UCwbuojHcPqeCO9OnGOBEHyw?view_as=subscriber" style="color: #fff;">Youtube</a></li>
+                  <li><a href="https://www.instagram.com/mujica8208" style="color: #fff;">Instagram</a></li>
+              </ul>
+          </div>
+      </div>
   </header>
   <main>
     <p class="main-text">初心者必見！自宅で簡単に出来る筋トレを紹介します。気になる部位を選んでトレーニングして行きましょう！</p>
     <div class="shoukaibun">
-      <img src="images/okinawa.jpeg" alt="管理人">
+      <img src="/images/okinawa.jpeg" alt="管理人">
       <div class="maeoki">
         <p>皆さん初めまして(^^)管理人のALEXISです。</p>
         <p>このページを見てくれてるほとんどの人は
@@ -51,19 +67,19 @@
     </div>
     <div class="t-contents">
       <div class="t-item">
-        <a href="kyoukin.html"><img src="images/OOKIMGL0679_TP_V.jpeg" alt="胸筋"></a>
+        <a href="kyoukin.html"><img src="/images/OOKIMGL0679_TP_V.jpeg" alt="胸筋"></a>
         <span class="dai">胸筋</span>
       </div>
       <div class="t-item">
-        <a href="kahanshin.html"><img src="images/PAKU6479_TP_V.jpeg" alt="下半身"></a>
+        <a href="kahanshin.html"><img src="/images/PAKU6479_TP_V.jpeg" alt="下半身"></a>
         <span class="dai">下半身</span>
       </div>
       <div class="t-item">
-        <a href="haikin.html"><img src="images/OOPAKU6485_TP_V.jpeg" alt="背中"></a>
+        <a href="haikin.html"><img src="/images/OOPAKU6485_TP_V.jpeg" alt="背中"></a>
         <span class="dai">背中</span>
       </div>
       <div class="t-item">
-        <a href="fukkin.html"><img src="images/PAKU6283_TP_V.jpeg" alt="腹筋"></a>
+        <a href="fukkin.html"><img src="/images/PAKU6283_TP_V.jpeg" alt="腹筋"></a>
         <span class="dai">腹筋</span>
       </div>
     </div>
@@ -126,7 +142,7 @@
   </main>
   <footer>
     <a class="top-idou" href="#top">TOPへ戻る</a>
-    <menu class="footer-list menu-icon">
+    <menu class="footer-list">
       <li><a href="https://www.myprotein.jp/nutrition.list">Supplement</a></li>
       <li><a href="https://www.myprotein.jp/nutrition/protein.list">protein</a></li>
       <li><a href="https://www.youtube.com/channel/UCwbuojHcPqeCO9OnGOBEHyw?view_as=subscriber">youtube</a></li>
@@ -134,5 +150,4 @@
     </menu>
   </footer>
 </body>
-
 </html>
