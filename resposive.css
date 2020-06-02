@@ -94,7 +94,7 @@
   }
   /* メニューの表示 */
   .menu {
-    position: fixed;
+    position: absolute;
     left: -400px;
     width: 360px;
     height: 125px;
