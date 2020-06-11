@@ -7,14 +7,26 @@ background-color: white;
 header {
   width: auto;
 }
+.btn {
+  padding: 10px 50px;
+  margin: 5px 60px;
+  font-family: cursive;
+  font-weight: 500;
+  box-shadow: 5px 5px #9bdbdc;
+}
 .header-title {
   text-align: center;
   color: mediumturquoise;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 60px;
+  font-size: 120px;
+  font-weight: 900;
+}
+.menu-btn {
+  background-color: hsl(150, 100%, 56%);
 }
 .sub-title {
   text-align: center;
+  font-weight: 900;
 }
 .header-list {
   background-color: aqua;
@@ -28,22 +40,24 @@ header {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
+  margin-top: 20px;
 }
 .shoukaibun img{
   width: 45%;
   height: 350px;
   margin-top: 60px;
 }
-.maeoki {
-  text-align: center;
-  float: right;
-  font-size: 15px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  padding-top: 150px;
+.main-menu{
+  display: inline-block;
+  height: 170px;
 }
-span {
-  font-size: 17px;
-  color: red;
+.img {
+  height: 400px;
+  width: 800px;
+  margin: 0px 250px;
+}
+.next {
+  background-color: #c5efee;
 }
 .mokuji {
   background-color: paleturquoise;
